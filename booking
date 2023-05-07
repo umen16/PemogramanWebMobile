@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                app:cardCornerRadius="10dp"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/colorPrimary"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingTop="10sp"
+                        android:paddingRight="10sp"
+                        android:paddingLeft="10sp"
+                        >
+                        <customfonts.MyTextView
+                            android:id="@+id/sds"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nama"
+                            android:layout_weight="1"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            />
+
+                        <customfonts.MyTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                        <customfonts.MyTextView
+                            android:id="@+id/tv_pemesan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nama pemesan"
+                            android:layout_weight="1"
+                            android:textAlignment="textEnd"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                      android:layout_marginBottom="10sp"
+                        android:paddingRight="10sp"
+                        >
+                        <customfonts.MyTextView
+                            android:id="@+id/tv_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="email"
+                            android:layout_weight="1"
+                            android:textColor="@color/white"
+                            android:textAlignment="textEnd"
+                            android:textStyle="bold"
+                            />
+                        <customfonts.MyTextView
+                            android:id="@+id/tv_telp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="089736479404"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:textAlignment="textEnd"
+                            android:textColor="@color/white"/>
+                        <customfonts.MyTextView
+                            android:id="@+id/tv_alamat"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bagian"
+                            android:layout_weight="1"
+                            android:textAlignment="textEnd"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1sp"
+                        android:layout_marginLeft="12sp"
+                        android:layout_marginRight="12sp"
+                        android:background="@color/white" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10sp"
+                        >
+                        <customfonts.MyTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nopol Mobil"
+                            android:layout_weight="1"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            />
+                        <customfonts.MyTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                        <customfonts.MyTextView
+                            android:id="@+id/tv_lap"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="1"
+                            android:layout_weight="1"
+                            android:textAlignment="textEnd"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1sp"
+                        android:layout_marginLeft="12sp"
+                        android:layout_marginRight="12sp"
+                        android:background="@color/white" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10sp"
+                        >
+                        <customfonts.MyTextView
+                            android:id="@+id/ssd"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tanggal booking"
+                            android:layout_weight="1"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            />
+                        <customfonts.MyTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                        <customfonts.MyTextView
+                            android:id="@+id/tv_tglbook"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2023-05-12"
+                            android:layout_weight="1"
+                            android:textAlignment="textEnd"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1sp"
+                        android:layout_marginLeft="12sp"
+                        android:layout_marginRight="12sp"
+                        android:background="@color/white"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10sp"
+                        >
+                        <customfonts.MyTextView
+                            android:id="@+id/ssds"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Jam "
+                            android:layout_weight="1"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            />
+                        <customfonts.MyTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                        <customfonts.MyTextView
+                            android:id="@+id/tv_jam"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="15:30 s/d 17:30"
+                            android:layout_weight="1"
+                            android:textAlignment="textEnd"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1sp"
+                        android:layout_marginLeft="12sp"
+                        android:layout_marginRight="12sp"
+                        android:background="@color/white"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10sp"
+                        >
+
+
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1sp"
+                        android:layout_marginLeft="12sp"
+                        android:layout_marginRight="12sp"
+                        android:background="@color/white"
+                        />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1sp"
+                        android:layout_marginBottom="20sp"
+                        android:layout_marginLeft="12sp"
+                        android:layout_marginRight="12sp"
+                        android:background="@color/white"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_horizontal"
+                        >
+                        <TextView
+                            android:id="@+id/tv_dp"
+                            android:paddingTop="6sp"
+                            android:paddingBottom="6sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/blue2"
+                            android:text="Booking ?"
+                            android:layout_gravity="end"
+                            android:layout_margin="10sp"
+                            android:textColor="@color/white"
+                            android:paddingLeft="20sp"
+                            android:paddingRight="20sp"
+                            />
+                        <TextView
+                            android:paddingTop="6sp"
+                            android:paddingBottom="6sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/roundred"
+                            android:text="Cancel ?"
+                            android:layout_gravity="end"
+                            android:layout_margin="10sp"
+                            android:textColor="@color/white"
+                            android:paddingLeft="20sp"
+                            android:paddingRight="20sp"
+                            />
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1sp"
+                        android:layout_marginTop="5sp"
+                        android:background="@color/white" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                app:cardCornerRadius="10dp"></androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+
+        </LinearLayout>
